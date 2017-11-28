@@ -1,0 +1,341 @@
+Started GET "/" for 127.0.0.1 at 2017-11-28 12:50:10 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 652ms (Views: 501.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:06:13 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 60ms (Views: 56.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:16:22 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 29.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:18:50 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 57ms (Views: 54.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:19:21 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 70ms (Views: 67.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:19:55 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 43.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:20:04 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:20:14 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 37ms (Views: 33.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:20:37 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 57ms (Views: 54.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:20:58 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 24.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:21:26 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 33.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:21:42 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 29.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:22:08 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 25.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:22:29 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 30.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:22:47 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 49.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:22:57 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 48.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:23:44 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 23ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  margin: 0;": expected "}", was ""):
+    4:     <title>GoogleMap</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/home.scss:14
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3051884061997005531_70199518271400'
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:23:58 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 24ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  margin: 0;": expected "}", was ""):
+    4:     <title>GoogleMap</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/home.scss:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3051884061997005531_70199547240300'
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:25:14 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  margin: 0;": expected "}", was ""):
+    4:     <title>GoogleMap</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/home.scss:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3051884061997005531_70199548315120'
+Started GET "/" for 127.0.0.1 at 2017-11-28 13:25:21 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 36.2ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:25:22 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.8ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:27:20 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 20.6ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:27:26 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 16.7ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:27:29 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 16.8ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:30:55 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.7ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:45:11 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 21.4ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:46:31 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 23.6ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:48:04 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 19.1ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:48:05 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 18.5ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:52:04 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 19.3ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:52:08 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 22.3ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:52:11 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 18.6ms)
+
+
+Started GET "/?Longitude=&Latitude=&marker=marker" for 127.0.0.1 at 2017-11-28 13:52:12 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"", "Latitude"=>"", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 16:38:09 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1606ms (Views: 982.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 16:59:50 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 38.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 16:59:54 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 38ms (Views: 36.4ms)
+
+
+Started GET "/?Longitude=100&Latitude=100&marker=marker" for 127.0.0.1 at 2017-11-28 17:00:03 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"100", "Latitude"=>"100", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 35.8ms)
+
+
+Started GET "/?Longitude=100&Latitude=100&marker=marker" for 127.0.0.1 at 2017-11-28 17:01:02 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"100", "Latitude"=>"100", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 44ms (Views: 42.3ms)
+
+
+Started GET "/?Longitude=100&Latitude=100&marker=marker" for 127.0.0.1 at 2017-11-28 17:43:00 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"100", "Latitude"=>"100", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 866ms (Views: 550.3ms)
+
+
+Started GET "/?Longitude=1000&Latitude=1000&marker=marker" for 127.0.0.1 at 2017-11-28 17:43:10 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"1000", "Latitude"=>"1000", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 40.1ms)
+
+
+Started GET "/?Longitude=100&Latitude=100&marker=marker" for 127.0.0.1 at 2017-11-28 17:44:08 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"Longitude"=>"100", "Latitude"=>"100", "marker"=>"marker"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 41ms (Views: 38.8ms)
+
+
